@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muuko's Emporium: instruments and accessories for every kind of musician.">
+    <title>Muuko's Emporium | Enter Our World</title>
+    <link rel="icon" type="image/png" href="media/muukosemporiumlogo.png">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg navbar-dark site-navbar" aria-label="Main navigation">
+            <div class="container">
+                <a class="navbar-brand brand-lockup" href="index.html" aria-label="Muuko's Emporium home">
+                    <img class="brand-mark" src="media/muukosemporiumlogo.png" alt="Muuko's Emporium logo">
+                    <span class="brand-name">MUUKO'S <span>EMPORIUM</span></span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation"
+                    aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavigation">
+                    <ul class="navbar-nav ml-auto align-items-lg-center">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item ml-lg-3">
+                            <button class="cart-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" aria-controls="cartOffcanvas" aria-label="Shopping cart, 0 items">
+                                <span class="cart-icon" aria-hidden="true">&#128722;</span>
+                                <span>Cart</span>
+                                <span class="cart-count" aria-hidden="true">0</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section" aria-labelledby="hero-heading">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <p class="eyebrow">MUUKO'S EMPORIUM</p>
+                <h1 id="hero-heading">Enter Our World.</h1>
+                <p class="hero-copy">Discover instruments and accessories made for every kind of musician.</p>
+                <a class="btn btn-accent" href="pages/products.html">Shop Now</a>
+            </div>
+        </section>
+
+        <section class="featured-section section-padding" aria-labelledby="featured-heading">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 promo-column mb-5 mb-lg-0">
+                        <img class="promo-image" src="media/banners/promoimage.jpg" alt="Muuko's Emporium promotional feature">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="brands-intro">
+                            <p class="eyebrow accent-blue-text">CURATED FOR CREATORS</p>
+                            <h2 id="featured-heading">Featured Brands</h2>
+                            <p>Explore instruments and equipment from brands we love.</p>
+                        </div>
+                        <div class="brand-grid">
+                            <a class="brand-card" href="pages/products.html?brand=ESP" aria-label="Explore ESP products">
+                                <img class="brand-logo" src="media/logos/ESP_Logo.svg" alt="ESP">
+                            </a>
+                            <a class="brand-card" href="pages/products.html?brand=Roland" aria-label="Explore Roland products">
+                                <img class="brand-logo" src="media/logos/Roland_Corporation_logo.svg" alt="Roland">
+                            </a>
+                            <a class="brand-card" href="pages/products.html?brand=Schecter" aria-label="Explore Schecter products">
+                                <img class="brand-logo" src="media/logos/Schecter_Guitar_Research_logo.svg" alt="Schecter Guitar Research">
+                            </a>
+                            <a class="brand-card" href="pages/products.html?brand=Tama" aria-label="Explore Tama products">
+                                <img class="brand-logo" src="media/logos/Tama_Drums_logo.svg" alt="Tama Drums">
+                            </a>
+                            <a class="brand-card" href="pages/products.html?brand=Yamaha" aria-label="Explore Yamaha products">
+                                <img class="brand-logo" src="media/logos/Yamaha_logo.svg" alt="Yamaha">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 mb-4 mb-md-0">
+                    <p class="footer-brand">MUUKO'S EMPORIUM</p>
+                    <p class="footer-tagline">Find your sound. Make it yours.</p>
+                </div>
+                <div class="col-md-7">
+                    <nav class="footer-nav" aria-label="Footer navigation">
+                        <a href="index.html">Home</a>
+                        <a href="pages/products.html">Products</a>
+                        <a href="pages/about.html">About Us</a>
+                        <a href="pages/contact.html">Contact Us</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <small>&copy; 2026 Muuko's Emporium. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
+
+    <div class="offcanvas offcanvas-end cart-offcanvas" tabindex="-1" id="cartOffcanvas" aria-labelledby="cartOffcanvasLabel">
+        <div class="offcanvas-header">
+            <h2 class="offcanvas-title" id="cartOffcanvasLabel">YOUR CART</h2>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body cart-offcanvas-body">
+            <div id="cart-items" class="cart-items"></div>
+            <div id="cart-summary" class="cart-summary"></div>
+        </div>
+    </div>
+
+    <script src="js/cart.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

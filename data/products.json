@@ -1,0 +1,360 @@
+[
+{
+  "id": "G01",
+  "name": "ESP POTBELLY Raana Custom",
+  "brand": "ESP",
+  "category": "Guitars",
+  "subcategory": "Electric Guitar",
+  "price": 178500,
+  "image": "../media/products/g01.jpg",
+  "description": "...",
+  "featured": true
+},
+{
+  "id": "G02",
+  "name": "ESP Ultratone ANON",
+  "brand": "ESP",
+  "category": "Guitars",
+  "subcategory": "Electric Guitar",
+  "price": 162000,
+  "image": "../media/products/g02.jpg",
+  "description": "...",
+  "featured": true
+},
+{
+  "id": "G03",
+  "name": "ESP M-II Roselia Sayo",
+  "brand": "ESP",
+  "category": "Guitars",
+  "subcategory": "Electric Guitar",
+  "price": 196800,
+  "image": "../media/products/g03.jpg",
+  "description": "...",
+  "featured": true
+},
+{
+  "id": "G04",
+  "name": "Schecter BC Ave Mujica / Doloris",
+  "brand": "Schecter",
+  "category": "Guitars",
+  "subcategory": "Electric Guitar",
+  "price": 153400,
+  "image": "../media/products/g04.png",
+  "description": "...",
+  "featured": true
+},
+{
+  "id": "G05",
+  "name": "Schecter BC Ave Mujica / Mortis",
+  "brand": "Schecter",
+  "category": "Guitars",
+  "subcategory": "Electric Guitar",
+  "price": 153400,
+  "image": "../media/products/g05.jpg",
+  "description": "...",
+  "featured": true
+},
+{
+  "id": "G06",
+  "name": "Schecter AC-EXB-5 Ave Mujica Timoris",
+  "brand": "Schecter",
+  "category": "Guitars",
+  "subcategory": "Electric Bass",
+  "price": 141900,
+  "image": "../media/products/g06.jpg",
+  "description": "...",
+  "featured": true
+},
+{
+  "id": "G07",
+  "name": "ESP GB Soyo",
+  "brand": "ESP",
+  "category": "Guitars",
+  "subcategory": "Electric Bass",
+  "price": 168300,
+  "image": "../media/products/g07.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "G08",
+  "name": "ESP BTL Roselia Lisa",
+  "brand": "ESP",
+  "category": "Guitars",
+  "subcategory": "Electric Bass",
+  "price": 159600,
+  "image": "../media/products/g08.jpg",
+  "description": "...",
+  "featured": true
+},
+{
+  "id": "D01",
+  "name": "Pearl Reference Series Kit",
+  "brand": "Pearl",
+  "category": "Drums",
+  "subcategory": "Drum Kit",
+  "price": 312000,
+  "image": "../media/products/d01.jpg",
+  "description": "...",
+  "featured": true
+},
+{
+  "id": "D02",
+  "name": "Tama Starclassic Performer",
+  "brand": "Tama",
+  "category": "Drums",
+  "subcategory": "Drum Kit",
+  "price": 258000,
+  "image": "../media/products/d02.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "D03",
+  "name": "Pearl Masters Maple Reserve",
+  "brand": "Pearl",
+  "category": "Drums",
+  "subcategory": "Drum Kit",
+  "price": 285500,
+  "image": "../media/products/d03.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "M01",
+  "name": "Shure SM58",
+  "brand": "Shure",
+  "category": "Microphones",
+  "subcategory": "Dynamic Microphone",
+  "price": 8950,
+  "image": "../media/products/m01.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "M02",
+  "name": "Shure Beta 58A",
+  "brand": "Shure",
+  "category": "Microphones",
+  "subcategory": "Dynamic Microphone",
+  "price": 12300,
+  "image": "../media/products/m02.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "M03",
+  "name": "Shure Axient Digital ADX2",
+  "brand": "Shure",
+  "category": "Microphones",
+  "subcategory": "Dynamic Microphone",
+  "price": 152400,
+  "image": "../media/products/m03.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "M04",
+  "name": "DPA d:vote CORE 4099",
+  "brand": "DPA",
+  "category": "Microphones",
+  "subcategory": "Dynamic Microphone",
+  "price": 42500,
+  "image": "../media/products/m04.jpg",
+  "description": "...",
+  "featured": true
+},
+{
+  "id": "A01",
+  "name": "Supro 1697RH Galaxy Head",
+  "brand": "Supro",
+  "category": "Guitar Amplifiers",
+  "subcategory": "Guitar Amplifier Head",
+  "price": 132700,
+  "image": "../media/products/a01.jpg",
+  "description": "...",
+  "featured": true
+},
+{
+  "id": "A02",
+  "name": "Diezel Hagen 100W Head",
+  "brand": "Diezel",
+  "category": "Guitar Amplifiers",
+  "subcategory": "Guitar Amplifier Head",
+  "price": 265000,
+  "image": "../media/products/a02.jpg",
+  "description": "...",
+  "featured": true
+},
+{
+  "id": "A03",
+  "name": "Yamaha TF5 Digital Mixer",
+  "brand": "Yamaha",
+  "category": "Mixing Consoles",
+  "subcategory": "Digital Mixer",
+  "price": 198500,
+  "image": "../media/products/a03.jpg",
+  "description": "...",
+  "featured": true
+},
+{
+  "id": "A04",
+  "name": "Focusrite Scarlett 18i20 3rd Gen",
+  "brand": "Focusrite",
+  "category": "Audio Interface",
+  "subcategory": "Audio Interface",
+  "price": 35900,
+  "image": "../media/products/a04.jpg",
+  "description": "...",
+  "featured": true
+},
+{
+  "id": "A05",
+  "name": "QSC K12.2 Powered Speaker",
+  "brand": "QSC",
+  "category": "Speakers",
+  "subcategory": "PA Speakers",
+  "price": 54200,
+  "image": "../media/products/a05.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "K01",
+  "name": "Roland RD-2000",
+  "brand": "Roland",
+  "category": "Keyboards",
+  "subcategory": "Digital Piano",
+  "price": 138900,
+  "image": "../media/products/k01.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "K02",
+  "name": "Nord Stage 3 Compact",
+  "brand": "Nord",
+  "category": "Keyboards",
+  "subcategory": "Digital Piano",
+  "price": 159900,
+  "image": "../media/products/k02.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "K03",
+  "name": "Roland Fantom-06",
+  "brand": "Roland",
+  "category": "Keyboards",
+  "subcategory": "Digital Piano",
+  "price": 116500,
+  "image": "../media/products/k03.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "AC01",
+  "name": "Elixir 10-57 Nanoweb Electric Guitar Strings",
+  "brand": "Elixir",
+  "category": "Accessories",
+  "subcategory": "Guitar Strings",
+  "price": 1200,
+  "image": "../media/products/ac01.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "AC02",
+  "name": "D'Addario EXL170 Bass Strings",
+  "brand": "D'Addario",
+  "category": "Accessories",
+  "subcategory": "Guitar Strings",
+  "price": 1450,
+  "image": "../media/products/ac02.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "AC03",
+  "name": "Dunlop Jazz III Nylon Guitar Pick (Set of 6)",
+  "brand": "Dunlop",
+  "category": "Accessories",
+  "subcategory": "Guitar Picks",
+  "price": 480,
+  "image": "../media/products/ac03.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "AC04",
+  "name": "D'Addario Planet Waves Classic Instrument Cable",
+  "brand": "D'Addario",
+  "category": "Accessories",
+  "subcategory": "Instrument Cables",
+  "price": 1250,
+  "image": "../media/products/ac04.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "AC05",
+  "name": "On-Stage XCG4 Guitar Stand",
+  "brand": "On-Stage",
+  "category": "Accessories",
+  "subcategory": "Guitar Stands",
+  "price": 1690,
+  "image": "../media/products/ac05.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "AC06",
+  "name": "Hercules KS100B Keyboard Stand",
+  "brand": "Hercules",
+  "category": "Accessories",
+  "subcategory": "Keyboard Stands",
+  "price": 4850,
+  "image": "../media/products/ac06.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "AC07",
+  "name": "Vic Firth American Classic 5A",
+  "brand": "Vic Firth",
+  "category": "Accessories",
+  "subcategory": "Drumsticks",
+  "price": 700,
+  "image": "../media/products/ac07.jpg",
+  "description": "...",
+  "featured": true
+}
+,
+{
+  "id": "AC08",
+  "name": "Seymour Duncan Sentient/Nazgul Pickup Set",
+  "brand": "Seymour Duncan",
+  "category": "Accessories",
+  "subcategory": "Pickups",
+  "price": 14200,
+  "image": "../media/products/ac08.jpg",
+  "description": "...",
+  "featured": true
+}
+]

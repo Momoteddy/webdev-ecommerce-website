@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Muuko's Emporium.">
+    <title>Contact Us | Muuko's Emporium</title>
+    <link rel="icon" type="image/png" href="../media/muukosemporiumlogo.png">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg navbar-dark site-navbar" aria-label="Main navigation">
+            <div class="container">
+                <a class="navbar-brand brand-lockup" href="../index.html" aria-label="Muuko's Emporium home">
+                    <img class="brand-mark" src="../media/muukosemporiumlogo.png" alt="Muuko's Emporium logo">
+                    <span class="brand-name">MUUKO'S <span>EMPORIUM</span></span>
+                </a>
+                <button class="navbar-toggler" type="button" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavigation">
+                    <ul class="navbar-nav ml-auto align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="contact.html" aria-current="page">Contact Us</a></li>
+                        <li class="nav-item ml-lg-3"><button class="cart-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" aria-controls="cartOffcanvas" aria-label="Shopping cart, 0 items"><span class="cart-icon" aria-hidden="true">&#128722;</span><span>Cart</span><span class="cart-count" aria-hidden="true">0</span></button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-heading contact-banner" aria-labelledby="contact-heading">
+            <div class="container page-heading-content">
+                <p class="eyebrow">MUUKO'S EMPORIUM</p>
+                <h1 id="contact-heading">Contact Us</h1>
+                <p>Even if we lose our way, we keep on moving.</p>
+            </div>
+        </section>
+
+        <section class="contact-page section-padding" aria-labelledby="contact-form-heading">
+            <div class="container">
+                <div class="contact-layout">
+                    <aside class="contact-card info-panel" aria-label="Store contact information">
+                        <div class="contact-panel-header">
+                            <p class="eyebrow accent-blue-text">GET IN TOUCH</p>
+                            <h2>Store Information</h2>
+                        </div>
+
+                        <div class="contact-detail-group">
+                            <h3>Main Store</h3>
+                            <p><strong>Muuko's Emporium — SM City North EDSA</strong></p>
+                            <p>North Avenue Corner, Brgy. Bagong Pag-Asa,<br>Quezon City, 1100 Metro Manila, Philippines</p>
+                        </div>
+
+                        <div class="contact-detail-group">
+                            <h3>Phone</h3>
+                            <p>+63 969 459 5286</p>
+                        </div>
+
+                        <div class="contact-detail-group">
+                            <h3>Email</h3>
+                            <p><a href="mailto:hello@muukosemporium.com">hello@muukosemporium.com</a></p>
+                        </div>
+
+                        <div class="contact-detail-group">
+                            <h3>Store Hours</h3>
+                            <p><strong>Monday – Saturday</strong><br>10:00 AM – 8:00 PM</p>
+                            <p><strong>Sunday</strong><br>10:00 AM – 6:00 PM</p>
+                        </div>
+
+                        <div class="contact-detail-group">
+                            <h3>Our Locations</h3>
+                            <p><strong>Quezon City</strong><br>SM City North EDSA</p>
+                            <p><strong>Pasay City</strong><br>SM Mall of Asia</p>
+                            <p><strong>Caloocan</strong><br>SM City Grand Central</p>
+                        </div>
+
+                        <div class="contact-support">
+                            <p>Need help finding something?<br><strong>Send us a message!</strong></p>
+                        </div>
+                    </aside>
+
+                    <div class="contact-card form-panel">
+                        <div class="contact-panel-header">
+                            <p class="eyebrow accent-blue-text">SEND US A MESSAGE</p>
+                            <h2 id="contact-form-heading">Send us a message</h2>
+                        </div>
+
+                        <form id="contactForm" class="contact-form" action="#" method="post">
+                            <div class="form-group">
+                                <label for="full-name">Full Name</label>
+                                <input id="full-name" name="fullName" type="text" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input id="email" name="email" type="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input id="subject" name="subject" type="text" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="reason">Reason for Contact</label>
+                                <select id="reason" name="reason" required>
+                                    <option value="" selected disabled>Select a reason</option>
+                                    <option value="General Inquiry">General Inquiry</option>
+                                    <option value="Product Question">Product Question</option>
+                                    <option value="Store Information">Store Information</option>
+                                    <option value="Feedback">Feedback</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+
+                            <button class="btn btn-accent" type="submit">Send Message</button>
+
+                            <div id="formStatus" class="form-status" hidden aria-live="polite">
+                                <strong>Message received!</strong><br>
+                                Thank you for reaching out to Muuko's Emporium.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 mb-4 mb-md-0"><p class="footer-brand">MUUKO'S EMPORIUM</p><p class="footer-tagline">Find your sound. Make it yours.</p></div>
+                <div class="col-md-7"><nav class="footer-nav" aria-label="Footer navigation"><a href="../index.html">Home</a><a href="products.html">Products</a><a href="about.html">About Us</a><a href="contact.html">Contact Us</a></nav></div>
+            </div>
+            <div class="footer-bottom"><small>&copy; 2026 Muuko's Emporium. All rights reserved.</small></div>
+        </div>
+    </footer>
+
+    <div class="offcanvas offcanvas-end cart-offcanvas" tabindex="-1" id="cartOffcanvas" aria-labelledby="cartOffcanvasLabel">
+        <div class="offcanvas-header">
+            <h2 class="offcanvas-title" id="cartOffcanvasLabel">YOUR CART</h2>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body cart-offcanvas-body">
+            <div id="cart-items" class="cart-items"></div>
+            <div id="cart-summary" class="cart-summary"></div>
+        </div>
+    </div>
+
+    <script src="../js/cart.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

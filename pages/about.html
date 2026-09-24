@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about Muuko's Emporium.">
+    <title>About Us | Muuko's Emporium</title>
+    <link rel="icon" type="image/png" href="../media/muukosemporiumlogo.png">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg navbar-dark site-navbar" aria-label="Main navigation">
+            <div class="container">
+                <a class="navbar-brand brand-lockup" href="../index.html" aria-label="Muuko's Emporium home">
+                    <img class="brand-mark" src="../media/muukosemporiumlogo.png" alt="Muuko's Emporium logo">
+                    <span class="brand-name">MUUKO'S <span>EMPORIUM</span></span>
+                </a>
+                <button class="navbar-toggler" type="button" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavigation">
+                    <ul class="navbar-nav ml-auto align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="about.html" aria-current="page">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                        <li class="nav-item ml-lg-3"><button class="cart-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" aria-controls="cartOffcanvas" aria-label="Shopping cart, 0 items"><span class="cart-icon" aria-hidden="true">&#128722;</span><span>Cart</span><span class="cart-count" aria-hidden="true">0</span></button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-heading about-banner" aria-labelledby="about-heading">
+            <div class="container page-heading-content">
+                <p class="eyebrow">MUUKO'S EMPORIUM</p>
+                <h1 id="about-heading">About Us</h1>
+                <p>Is this sleep, or is it death?</p>
+            </div>
+        </section>
+
+        <section class="about-page section-padding" aria-labelledby="about-story-heading">
+            <div class="container">
+                <div class="about-layout">
+                    <div class="about-image-wrap">
+                        <img src="../media/banners/aboutus.jpg" alt="Muuko's Emporium instrument collection and store atmosphere">
+                    </div>
+
+                    <div class="about-copy">
+                        <div class="about-block">
+                            <h2 id="about-story-heading">Music for every kind of musician</h2>
+                            <p>Muuko's Emporium is a specialty music store dedicated to helping musicians find the instruments and accessories that fit their sound. From first-time players to experienced performers, we aim to provide a carefully selected range of instruments for every kind of musician.</p>
+                        </div>
+
+                        <div class="about-block">
+                            <h2>Find your sound</h2>
+                            <p>Our collection includes guitars, basses, drums, keyboards, and essential musical accessories from a variety of brands. Whether you're building your first setup, replacing an old instrument, or looking for something new to add to your collection, Muuko's Emporium is here to help you find the right fit.</p>
+                        </div>
+
+                        <div class="about-block">
+                            <h2>Made for music</h2>
+                            <p>We believe choosing an instrument should be about more than specifications and price. It's about finding something that inspires you to play. That's why we focus on making our store straightforward, welcoming, and easy to explore.</p>
+                        </div>
+
+                        <div class="about-cta">
+                            <p class="cta-line">So, have you made up your mind?</p>
+                            <a class="btn btn-accent" href="products.html">Browse Our Products</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 mb-4 mb-md-0"><p class="footer-brand">MUUKO'S EMPORIUM</p><p class="footer-tagline">Find your sound. Make it yours.</p></div>
+                <div class="col-md-7"><nav class="footer-nav" aria-label="Footer navigation"><a href="../index.html">Home</a><a href="products.html">Products</a><a href="about.html">About Us</a><a href="contact.html">Contact Us</a></nav></div>
+            </div>
+            <div class="footer-bottom"><small>&copy; 2026 Muuko's Emporium. All rights reserved.</small></div>
+        </div>
+    </footer>
+
+    <div class="offcanvas offcanvas-end cart-offcanvas" tabindex="-1" id="cartOffcanvas" aria-labelledby="cartOffcanvasLabel">
+        <div class="offcanvas-header">
+            <h2 class="offcanvas-title" id="cartOffcanvasLabel">YOUR CART</h2>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body cart-offcanvas-body">
+            <div id="cart-items" class="cart-items"></div>
+            <div id="cart-summary" class="cart-summary"></div>
+        </div>
+    </div>
+
+    <script src="../js/cart.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
