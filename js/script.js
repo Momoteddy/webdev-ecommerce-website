@@ -1,4 +1,19 @@
 (function () {
+    var loader = document.getElementById('page-loader');
+    var loaderDismissed = false;
+
+    function dismissPageLoader() {
+        if (loaderDismissed) return;
+        loaderDismissed = true;
+        document.documentElement.classList.remove('is-loading');
+        if (loader) loader.setAttribute('aria-hidden', 'true');
+    }
+
+    if (loader) {
+        window.addEventListener('load', dismissPageLoader, { once: true });
+        window.setTimeout(dismissPageLoader, 4500);
+    }
+
     var toggle = document.querySelector('.navbar-toggler');
     var navigation = document.getElementById('mainNavigation');
 

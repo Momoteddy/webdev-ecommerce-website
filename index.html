@@ -6,10 +6,19 @@
     <meta name="description" content="Muuko's Emporium: instruments and accessories for every kind of musician.">
     <title>Muuko's Emporium | Enter Our World</title>
     <link rel="icon" type="image/png" href="media/muukosemporiumlogo.png">
+    <script>document.documentElement.classList.add('is-loading');</script>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div class="page-loader" id="page-loader" role="status" aria-live="polite" aria-label="Loading Muuko's Emporium">
+        <div class="page-loader-content">
+            <img src="media/muukosemporiumlogo.png" alt="" class="page-loader-logo">
+            <span class="page-loader-indicator" aria-hidden="true"></span>
+            <p>Preparing your sound...</p>
+        </div>
+    </div>
+
     <header class="site-header">
         <nav class="navbar navbar-expand-lg navbar-dark site-navbar" aria-label="Main navigation">
             <div class="container">
